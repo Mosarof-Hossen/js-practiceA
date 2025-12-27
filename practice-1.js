@@ -29,10 +29,17 @@ for(let i=1; i<=lastDay;i++){
 /** Problem 04 - (Delete / Store) */
 var fileName= "result.pdf";
 
+//write your code here
+
 if(fileName.includes('result.pdf','data.docx','#exp.mp4','#')){
     console.log("Store")
 }
 else{
     console.log("Delete")
 }
+
+/** Problem 05 - ( PH Email Generator )  */
+var student= { name: "jhankar" , roll: 1014 ,department: "cse" };
 //write your code here
+
+console.log(student.name+student.roll+student.department+"@ph.ac.bd")
