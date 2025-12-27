@@ -25,3 +25,14 @@ for(let i=1; i<=lastDay;i++){
     }
     
 }
+
+/** Problem 04 - (Delete / Store) */
+var fileName= "result.pdf";
+
+if(fileName.includes('result.pdf','data.docx','#exp.mp4','#')){
+    console.log("Store")
+}
+else{
+    console.log("Delete")
+}
+//write your code here
